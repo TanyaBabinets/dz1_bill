@@ -1,0 +1,97 @@
+body {
+    display: flex;
+
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 2px solid blue;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    /* min-height: 100vh; */
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.quotes {
+    background-image: url('../assets/bill3.jfif');
+    width: 640px;
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    color: white;
+    position: relative;
+
+}
+
+#quotes p {
+    margin-bottom: 5px;
+}
+
+#quotes {
+    width: 400px;
+    height: 300px;
+    z-index: 1;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+
+h2 {
+    color: rgb(92, 92, 200);
+}
+
+.content {
+    flex: 1;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    padding-left: 20px;
+
+}
+
+#text {
+    font-size: 18px;
+}
+
+#text2 {
+    width: 100%;
+    font-size: 18px;
+}
+
+#pic {
+    margin-top: 20px;
+}
+
+#pic img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+}
+
+#ref {
+    width: 400px;
+    height: auto;
+    margin: 20px;
+    font-size: 17px;
+    position: center;
+
+}
+
+#pic2 {
+    margin: 30px;
+    flex: 1;
+}
